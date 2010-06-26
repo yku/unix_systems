@@ -2,7 +2,6 @@
  * set_ticker.c
  */
 #include <sys/time.h>
-extern int done;
 /*
  * SIGALRMが周期的に発行されるようにインターバルタイマを設定する。
  * エラーなら-1、成功なら0を返す
